@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{multirow}
+
+\begin{document}
+    \begin{center}
+        \Large\textbf{Student Details and Marks}
+    \end{center}
+    
+    \vspace{0.2cm}
+    
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \multirow{2}{*}{\textbf{S.No}} &
+        \multirow{2}{*}{\textbf{USN}} &
+        \multirow{2}{*}{\textbf{Student Name}} &
+        \multicolumn{3}{c|}{\textbf{Marks}} \\
+        \cline{4-6}
+         & & & \textbf{M1} & \textbf{M2} & \textbf{M3} \\
+        \hline
+        
+        1 & 2AG25CS402 & Atharva & 89 & 60 & 90 \\
+        \hline
+        2 & 2AG25CS413 & Sultan & 78 & 45 & 98 \\
+        \hline
+        3 & 2AG25CS415 & Veeresh & 67 & 55 & 59 \\
+        \hline
+        
+        \end{tabular}
+    \end{table}
+
+\end{document}
